@@ -12,7 +12,8 @@
     background-color: aquamarine; 
     text-align:  center ;   
     padding-top: 5px;
-    height : 45px ;   
+    height : 45px ;    
+    text-decoration: underline;
     box-shadow: 0 0 1rem rgb(97, 86, 86); 
 } 
 
@@ -42,10 +43,55 @@
 
 .section2{
   
-    padding: 50px;  
+    padding: 30px;  
     margin: 30px; 
     background-color: aquamarine; 
     box-shadow: 0 0 1rem rgb(97, 86, 86); 
-    height: 500px ; 
-    width: 300px;
+    height: 550px ; 
+    width: 300px; 
+    text-align: center;
+}  
+
+.cname{
+      font-weight: 600; 
+      padding: 1px; 
+      font-size: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
+
+.btn-group-md{ 
+     font-weight: 700; 
+     padding: 10px; 
+
+} 
+
+.btn {
+    padding: 25px;  
+    font-size: 12px; 
+    font-weight: 800; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: black;  
+    border-radius: 1rem;  
+    min-height: 15px; 
+    min-width: 60px;
+    background-color: white; 
+    box-shadow:  0 0 1rem rgb(242, 242, 242);
+}  
+.col{
+    font-size: 25px;  
+    font-weight: 700;
+    padding: 20px;
+} 
+
+.btn:hover {
+    background-color:black; 
+    color: azure; 
+    transition: 0.5s;
+}
+
+.sortheading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px; 
+    padding: 5px;
+}
